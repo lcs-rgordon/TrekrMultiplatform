@@ -13,6 +13,8 @@
 		8140D53425BC5F50006B6DBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140D51F25BC5F4F006B6DBB /* ContentView.swift */; };
 		8140D53525BC5F50006B6DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8140D52025BC5F50006B6DBB /* Assets.xcassets */; };
 		8140D53625BC5F50006B6DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8140D52025BC5F50006B6DBB /* Assets.xcassets */; };
+		8140D54525BC61B5006B6DBB /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 8140D54325BC61B5006B6DBB /* locations.json */; };
+		8140D54625BC61B5006B6DBB /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 8140D54425BC61B5006B6DBB /* tips.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8140D52D25BC5F50006B6DBB /* TrekrMultiplatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrekrMultiplatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8140D52F25BC5F50006B6DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8140D53025BC5F50006B6DBB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		8140D54325BC61B5006B6DBB /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		8140D54425BC61B5006B6DBB /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 		8140D54225BC604E006B6DBB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8140D54325BC61B5006B6DBB /* locations.json */,
+				8140D54425BC61B5006B6DBB /* tips.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,7 +190,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8140D54525BC61B5006B6DBB /* locations.json in Resources */,
 				8140D53525BC5F50006B6DBB /* Assets.xcassets in Resources */,
+				8140D54625BC61B5006B6DBB /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
