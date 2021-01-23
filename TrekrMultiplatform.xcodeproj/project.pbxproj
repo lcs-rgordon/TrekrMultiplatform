@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8140D53125BC5F50006B6DBB /* TrekrMultiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140D51E25BC5F4F006B6DBB /* TrekrMultiplatformApp.swift */; };
+		8140D53225BC5F50006B6DBB /* TrekrMultiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140D51E25BC5F4F006B6DBB /* TrekrMultiplatformApp.swift */; };
+		8140D53325BC5F50006B6DBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140D51F25BC5F4F006B6DBB /* ContentView.swift */; };
+		8140D53425BC5F50006B6DBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140D51F25BC5F4F006B6DBB /* ContentView.swift */; };
+		8140D53525BC5F50006B6DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8140D52025BC5F50006B6DBB /* Assets.xcassets */; };
+		8140D53625BC5F50006B6DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8140D52025BC5F50006B6DBB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8140D51E25BC5F4F006B6DBB /* TrekrMultiplatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekrMultiplatformApp.swift; sourceTree = "<group>"; };
+		8140D51F25BC5F4F006B6DBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8140D52025BC5F50006B6DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8140D52525BC5F50006B6DBB /* TrekrMultiplatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrekrMultiplatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8140D52825BC5F50006B6DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8140D52D25BC5F50006B6DBB /* TrekrMultiplatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrekrMultiplatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8140D52F25BC5F50006B6DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8140D53025BC5F50006B6DBB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8140D52225BC5F50006B6DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8140D52A25BC5F50006B6DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8140D51825BC5F4F006B6DBB = {
+			isa = PBXGroup;
+			children = (
+				8140D51D25BC5F4F006B6DBB /* Shared */,
+				8140D52725BC5F50006B6DBB /* iOS */,
+				8140D52E25BC5F50006B6DBB /* macOS */,
+				8140D52625BC5F50006B6DBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8140D51D25BC5F4F006B6DBB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8140D51E25BC5F4F006B6DBB /* TrekrMultiplatformApp.swift */,
+				8140D51F25BC5F4F006B6DBB /* ContentView.swift */,
+				8140D52025BC5F50006B6DBB /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8140D52625BC5F50006B6DBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8140D52525BC5F50006B6DBB /* TrekrMultiplatform.app */,
+				8140D52D25BC5F50006B6DBB /* TrekrMultiplatform.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8140D52725BC5F50006B6DBB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8140D52825BC5F50006B6DBB /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		8140D52E25BC5F50006B6DBB /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				8140D52F25BC5F50006B6DBB /* Info.plist */,
+				8140D53025BC5F50006B6DBB /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8140D52425BC5F50006B6DBB /* TrekrMultiplatform (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8140D53925BC5F50006B6DBB /* Build configuration list for PBXNativeTarget "TrekrMultiplatform (iOS)" */;
+			buildPhases = (
+				8140D52125BC5F50006B6DBB /* Sources */,
+				8140D52225BC5F50006B6DBB /* Frameworks */,
+				8140D52325BC5F50006B6DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TrekrMultiplatform (iOS)";
+			productName = "TrekrMultiplatform (iOS)";
+			productReference = 8140D52525BC5F50006B6DBB /* TrekrMultiplatform.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8140D52C25BC5F50006B6DBB /* TrekrMultiplatform (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8140D53C25BC5F50006B6DBB /* Build configuration list for PBXNativeTarget "TrekrMultiplatform (macOS)" */;
+			buildPhases = (
+				8140D52925BC5F50006B6DBB /* Sources */,
+				8140D52A25BC5F50006B6DBB /* Frameworks */,
+				8140D52B25BC5F50006B6DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TrekrMultiplatform (macOS)";
+			productName = "TrekrMultiplatform (macOS)";
+			productReference = 8140D52D25BC5F50006B6DBB /* TrekrMultiplatform.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8140D51925BC5F4F006B6DBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					8140D52425BC5F50006B6DBB = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8140D52C25BC5F50006B6DBB = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 8140D51C25BC5F4F006B6DBB /* Build configuration list for PBXProject "TrekrMultiplatform" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8140D51825BC5F4F006B6DBB;
+			productRefGroup = 8140D52625BC5F50006B6DBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8140D52425BC5F50006B6DBB /* TrekrMultiplatform (iOS) */,
+				8140D52C25BC5F50006B6DBB /* TrekrMultiplatform (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8140D52325BC5F50006B6DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8140D53525BC5F50006B6DBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8140D52B25BC5F50006B6DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8140D53625BC5F50006B6DBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8140D52125BC5F50006B6DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8140D53325BC5F50006B6DBB /* ContentView.swift in Sources */,
+				8140D53125BC5F50006B6DBB /* TrekrMultiplatformApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8140D52925BC5F50006B6DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8140D53425BC5F50006B6DBB /* ContentView.swift in Sources */,
+				8140D53225BC5F50006B6DBB /* TrekrMultiplatformApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8140D53725BC5F50006B6DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8140D53825BC5F50006B6DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8140D53A25BC5F50006B6DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.russellgordon.TrekrMultiplatform;
+				PRODUCT_NAME = TrekrMultiplatform;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8140D53B25BC5F50006B6DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.russellgordon.TrekrMultiplatform;
+				PRODUCT_NAME = TrekrMultiplatform;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8140D53D25BC5F50006B6DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.russellgordon.TrekrMultiplatform;
+				PRODUCT_NAME = TrekrMultiplatform;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8140D53E25BC5F50006B6DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.russellgordon.TrekrMultiplatform;
+				PRODUCT_NAME = TrekrMultiplatform;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8140D51C25BC5F4F006B6DBB /* Build configuration list for PBXProject "TrekrMultiplatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8140D53725BC5F50006B6DBB /* Debug */,
+				8140D53825BC5F50006B6DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8140D53925BC5F50006B6DBB /* Build configuration list for PBXNativeTarget "TrekrMultiplatform (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8140D53A25BC5F50006B6DBB /* Debug */,
+				8140D53B25BC5F50006B6DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8140D53C25BC5F50006B6DBB /* Build configuration list for PBXNativeTarget "TrekrMultiplatform (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8140D53D25BC5F50006B6DBB /* Debug */,
+				8140D53E25BC5F50006B6DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8140D51925BC5F4F006B6DBB /* Project object */;
+}
