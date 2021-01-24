@@ -59,6 +59,8 @@ struct LocationDetail: View {
 
 struct LocationDetail_Previews: PreviewProvider {
     static var previews: some View {
-        LocationDetail(location: Location.example)
+        NavigationView {
+            LocationDetail(location: Location.example)
+        }
     }
 }
