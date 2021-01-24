@@ -10,7 +10,6 @@
 		8140D53125BC5F50006B6DBB /* TrekrMultiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140D51E25BC5F4F006B6DBB /* TrekrMultiplatformApp.swift */; };
 		8140D53225BC5F50006B6DBB /* TrekrMultiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140D51E25BC5F4F006B6DBB /* TrekrMultiplatformApp.swift */; };
 		8140D53525BC5F50006B6DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8140D52025BC5F50006B6DBB /* Assets.xcassets */; };
-		8140D53625BC5F50006B6DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8140D52025BC5F50006B6DBB /* Assets.xcassets */; };
 		8140D54525BC61B5006B6DBB /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 8140D54325BC61B5006B6DBB /* locations.json */; };
 		8140D54625BC61B5006B6DBB /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 8140D54425BC61B5006B6DBB /* tips.json */; };
 		8140D54A25BC631D006B6DBB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140D54925BC631D006B6DBB /* Location.swift */; };
@@ -29,6 +28,7 @@
 		81F60CD825BE162600063394 /* TipsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F60CD625BE162600063394 /* TipsList.swift */; };
 		81F60CDE25BE1EDB00063394 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F60CDD25BE1EDB00063394 /* Tip.swift */; };
 		81F60CDF25BE1EDB00063394 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F60CDD25BE1EDB00063394 /* Tip.swift */; };
+		81F60CEA25BE233F00063394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8140D52025BC5F50006B6DBB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -226,9 +226,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81F60CEA25BE233F00063394 /* Assets.xcassets in Resources */,
 				8140D56225BDB6CE006B6DBB /* locations.json in Resources */,
 				8140D56325BDB6CE006B6DBB /* tips.json in Resources */,
-				8140D53625BC5F50006B6DBB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
