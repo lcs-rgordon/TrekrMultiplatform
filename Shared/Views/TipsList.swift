@@ -14,7 +14,11 @@ struct TipsList: View {
 
     var body: some View {
         
-        List(tips, id: \.text) { tip in
+        // Note how the List view in SwiftUI does many things
+        // Not just for navigation
+        // children argument must match up with the Tip type property name (children)
+        // Does NOT have to match the parameter name
+        List(tips, id: \.text, children: \.children) { tip in
             
             if tip.children != nil {
                 Label(tip.text, systemImage: "quote.bubble")
