@@ -47,8 +47,35 @@ struct LocationDetail: View {
             }
             .padding(.horizontal)
             
-            Text(location.more)
-                .padding([.horizontal, .bottom])
+            // Conditionally include the travel advisories...
+            if !location.advisory.isEmpty {
+                
+                // Show only the location's "more" text without bottom padding
+                Text(location.more)
+                    .padding(.horizontal)
+
+                HStack {
+
+                    Text("Advisory")
+                        .font(.title3)
+                        .bold()
+                        .padding(.vertical)
+                    
+                    Spacer()
+
+                }
+                .padding(.horizontal)
+
+                Text(location.advisory)
+                    .padding([.horizontal, .bottom])
+
+            } else {
+                
+                // Show only the location's "more" text with bottom padding included
+                Text(location.more)
+                    .padding([.horizontal, .bottom])
+
+            }
                         
             
         }
@@ -60,7 +87,7 @@ struct LocationDetail: View {
 struct LocationDetail_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            LocationDetail(location: Location.example)
+            LocationDetail(location: testStore.places[2])
         }
     }
 }
