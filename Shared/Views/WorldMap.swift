@@ -23,7 +23,17 @@ struct WorldMap: View {
     
     var body: some View {
         
-        Map(coordinateRegion: $region, annotationItems: store.places) { location in
+        let currentRegion = Binding<MKCoordinateRegion>(
+            get: {
+                self.region
+            },
+            set: {
+                self.region = $0
+                print(region.center)
+            }
+        )
+        
+        return Map(coordinateRegion: currentRegion, annotationItems: store.places) { location in
             
             MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)) {
                 
