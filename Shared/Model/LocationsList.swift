@@ -11,6 +11,7 @@ struct LocationsList: View {
     
     // Needs a reference to the store of locations
     // This is a derived value, from the source of truth at the app level
+    // Provides a reference to the view model for locations
     @ObservedObject var store: LocationStore
 
     var body: some View {

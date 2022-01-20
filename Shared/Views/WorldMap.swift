@@ -13,6 +13,7 @@ struct WorldMap: View {
     // Get a reference to the location store
     // This is a derived value passed as a parameter
     // So, @ObservedObject
+    // Provides a reference to the view model for locations
     @ObservedObject var store: LocationStore
     
     // Centre on LCS, wide enough to show most of eastern North America

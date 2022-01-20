@@ -18,6 +18,8 @@
 		8140D56325BDB6CE006B6DBB /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 8140D54425BC61B5006B6DBB /* tips.json */; };
 		8140D56725BDB702006B6DBB /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140D56625BDB702006B6DBB /* LocationDetail.swift */; };
 		8140D56825BDB702006B6DBB /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140D56625BDB702006B6DBB /* LocationDetail.swift */; };
+		81CDF32A27997D7C00D3BF30 /* TipStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CDF32927997D7C00D3BF30 /* TipStore.swift */; };
+		81CDF32B27997D7C00D3BF30 /* TipStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CDF32927997D7C00D3BF30 /* TipStore.swift */; };
 		81F60CC425BE108600063394 /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F60CC325BE108600063394 /* LocationStore.swift */; };
 		81F60CC525BE108600063394 /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F60CC325BE108600063394 /* LocationStore.swift */; };
 		81F60CC925BE128B00063394 /* LocationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F60CC825BE128B00063394 /* LocationsList.swift */; };
@@ -43,6 +45,7 @@
 		8140D54425BC61B5006B6DBB /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		8140D54925BC631D006B6DBB /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		8140D56625BDB702006B6DBB /* LocationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetail.swift; sourceTree = "<group>"; };
+		81CDF32927997D7C00D3BF30 /* TipStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipStore.swift; sourceTree = "<group>"; };
 		81F60CC325BE108600063394 /* LocationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStore.swift; sourceTree = "<group>"; };
 		81F60CC825BE128B00063394 /* LocationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationsList.swift; path = Shared/Model/LocationsList.swift; sourceTree = SOURCE_ROOT; };
 		81F60CD125BE161C00063394 /* WorldMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMap.swift; sourceTree = "<group>"; };
@@ -82,8 +85,9 @@
 			isa = PBXGroup;
 			children = (
 				8140D51E25BC5F4F006B6DBB /* TrekrMultiplatformApp.swift */,
-				8140D54125BC6045006B6DBB /* Views */,
 				8140D54225BC604E006B6DBB /* Model */,
+				81CDF32827997B7D00D3BF30 /* ViewModels */,
+				8140D54125BC6045006B6DBB /* Views */,
 				8140D52025BC5F50006B6DBB /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -130,12 +134,20 @@
 			isa = PBXGroup;
 			children = (
 				8140D54925BC631D006B6DBB /* Location.swift */,
-				81F60CC325BE108600063394 /* LocationStore.swift */,
 				81F60CDD25BE1EDB00063394 /* Tip.swift */,
 				8140D54325BC61B5006B6DBB /* locations.json */,
 				8140D54425BC61B5006B6DBB /* tips.json */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		81CDF32827997B7D00D3BF30 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				81F60CC325BE108600063394 /* LocationStore.swift */,
+				81CDF32927997D7C00D3BF30 /* TipStore.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +194,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
-				LastUpgradeCheck = 1220;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					8140D52425BC5F50006B6DBB = {
 						CreatedOnToolsVersion = 12.2;
@@ -241,6 +253,7 @@
 			files = (
 				81F60CC425BE108600063394 /* LocationStore.swift in Sources */,
 				81F60CDE25BE1EDB00063394 /* Tip.swift in Sources */,
+				81CDF32A27997D7C00D3BF30 /* TipStore.swift in Sources */,
 				81F60CD225BE161C00063394 /* WorldMap.swift in Sources */,
 				8140D54A25BC631D006B6DBB /* Location.swift in Sources */,
 				81F60CD725BE162600063394 /* TipsList.swift in Sources */,
@@ -256,6 +269,7 @@
 			files = (
 				81F60CC525BE108600063394 /* LocationStore.swift in Sources */,
 				81F60CDF25BE1EDB00063394 /* Tip.swift in Sources */,
+				81CDF32B27997D7C00D3BF30 /* TipStore.swift in Sources */,
 				81F60CD325BE161C00063394 /* WorldMap.swift in Sources */,
 				8140D53225BC5F50006B6DBB /* TrekrMultiplatformApp.swift in Sources */,
 				81F60CD825BE162600063394 /* TipsList.swift in Sources */,
@@ -430,6 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
@@ -454,6 +469,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = U2ZN2W2UQJ;

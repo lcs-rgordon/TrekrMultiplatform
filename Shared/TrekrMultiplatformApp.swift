@@ -14,6 +14,7 @@ struct TrekrMultiplatformApp: App {
     // It's created by this view
     // It's a source of truth, not a derived value
     // So, use @StateObject
+    // Establishes an initial connection to the view model for locations
     @StateObject var store = LocationStore()
 
     var body: some Scene {

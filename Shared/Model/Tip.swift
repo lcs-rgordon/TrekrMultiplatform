@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Provides the _description_ of what a Tip contains, so this belongs in the Model group
 struct Tip: Decodable {
     let text: String
     let children: [Tip]?

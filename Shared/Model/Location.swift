@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Provides the _description_ of what a Location contains, so this belongs in the Model group
 struct Location: Decodable, Identifiable {
     let id: Int
     let name: String

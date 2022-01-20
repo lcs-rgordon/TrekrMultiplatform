@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Holds the _state_ of of the location data in use within the app, so this belongs in the ViewModels group
 class LocationStore: ObservableObject {
     
     var places: [Location]
